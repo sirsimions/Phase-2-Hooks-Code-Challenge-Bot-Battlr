@@ -2,7 +2,8 @@ import React from "react";
 
 function YourBotArmy() {
   //your bot army code here...
-
+  
+   
   return (
     <div className="ui segment inverted olive bot-army">
       <div className="ui five column grid">
