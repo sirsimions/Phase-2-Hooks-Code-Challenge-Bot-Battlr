@@ -7,13 +7,6 @@ function BotsPage() {
   const [bots, setBots] = useState([]);
   const [army, setArmy] = useState([]);
 
-  function display(bot) {
-    if (army.includes(bot)) return;
-    setArmy((army) => [...army, bot]);
-  }
-  function remove(bot) {
-    setArmy((army) => army.filter((item) => item.id !== bot.id));
-  }
   useEffect(() => {
     fetch("http://localhost:8002/bots")
       .then((res) => res.json())
@@ -28,10 +21,16 @@ function BotsPage() {
        result.json().then((resp)=>{
         console.warn(resp)
        })
-
     });
   }
 
+  function display(bot) {
+    if (army.includes(bot));
+    setArmy((army) => [...army, bot]);
+  }
+  function remove(bot) {
+    setArmy((army) => army.filter((item) => item.id !== bot.id));
+  }
   return (
     <div>
       <YourBotArmy BotArr={army} handleDisplay={remove} DeleteBot={DeleteBot} />

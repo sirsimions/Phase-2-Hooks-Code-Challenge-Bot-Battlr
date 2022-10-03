@@ -23,7 +23,7 @@ function BotCard({ bot, handleDisplay, DeleteBot }) {
             <i className={botTypeClasses[bot.bot_class]} />
           </div>
           <div className="meta text-wrap">
-            <small>{bot.catchphrase.substring(0, 32)}</small>
+            <small>{bot.catchphrase.substring(0, 28)}</small>
           </div>
         </div>
         <div className="extra content">
@@ -45,7 +45,7 @@ function BotCard({ bot, handleDisplay, DeleteBot }) {
               <button
                 title="Delete this bot"
                 className="ui mini red button"
-                onClick={() => DeleteBot(bot)
+                onClick={() => DeleteBot(bot.id)
 
                 }
               >
