@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Phase-2-Hooks-Code-Challenge-Bot-Battlr/static/css/main.0a0f06b5.chunk.css",
+    "main.js": "/Phase-2-Hooks-Code-Challenge-Bot-Battlr/static/js/main.c2268210.chunk.js",
+    "main.js.map": "/Phase-2-Hooks-Code-Challenge-Bot-Battlr/static/js/main.c2268210.chunk.js.map",
+    "runtime-main.js": "/Phase-2-Hooks-Code-Challenge-Bot-Battlr/static/js/runtime-main.dee2bbcc.js",
+    "runtime-main.js.map": "/Phase-2-Hooks-Code-Challenge-Bot-Battlr/static/js/runtime-main.dee2bbcc.js.map",
+    "static/js/2.be4760f2.chunk.js": "/Phase-2-Hooks-Code-Challenge-Bot-Battlr/static/js/2.be4760f2.chunk.js",
+    "static/js/2.be4760f2.chunk.js.map": "/Phase-2-Hooks-Code-Challenge-Bot-Battlr/static/js/2.be4760f2.chunk.js.map",
+    "index.html": "/Phase-2-Hooks-Code-Challenge-Bot-Battlr/index.html",
+    "static/css/main.0a0f06b5.chunk.css.map": "/Phase-2-Hooks-Code-Challenge-Bot-Battlr/static/css/main.0a0f06b5.chunk.css.map",
+    "static/js/2.be4760f2.chunk.js.LICENSE.txt": "/Phase-2-Hooks-Code-Challenge-Bot-Battlr/static/js/2.be4760f2.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.dee2bbcc.js",
+    "static/js/2.be4760f2.chunk.js",
+    "static/css/main.0a0f06b5.chunk.css",
+    "static/js/main.c2268210.chunk.js"
+  ]
+}
